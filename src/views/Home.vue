@@ -6,7 +6,6 @@
 </template>
 
 <script>
-// eslint-disable-next-line import/no-unresolved
 import HelloWorld from '@components/HelloWorld.vue';
 
 export default {

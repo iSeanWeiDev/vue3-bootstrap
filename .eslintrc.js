@@ -29,13 +29,14 @@ module.exports = {
         vue: 'never'
       }
     ],
-    indent: 'off',
+    'indent': 'off',
     'object-curly-newline': 'off',
     'import/prefer-default-export': 'off',
     'import/named': 'off',
     'operator-linebreak': 'off',
     'func-names': 'off',
     'object-shorthand': 'off',
-    'linebreak-style': 'off'
+    'linebreak-style': 'off',
+    'import/no-unresolved': 'off'
   },
 };
