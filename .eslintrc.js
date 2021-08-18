@@ -25,8 +25,11 @@ module.exports = {
       'error',
       'always',
       {
-        js: 'never',
-        vue: 'never'
+        ignorePackages: true,
+        pattern: {
+          '.js': 'never',
+          '.vue': 'never'
+        }
       }
     ],
     indent: 'off',

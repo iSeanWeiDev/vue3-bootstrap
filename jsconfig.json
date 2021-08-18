@@ -7,6 +7,7 @@
       "@router/*": ["src/router/*"],
       "@store/*": ["src/store/*"],
       "@views/*": ["src/views/*"],
+      "@layouts/*": ["src/layouts/*"],
       "@public/*": ["public/*"]
     }
   }
