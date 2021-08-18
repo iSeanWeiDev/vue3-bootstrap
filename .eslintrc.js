@@ -29,7 +29,7 @@ module.exports = {
         vue: 'never'
       }
     ],
-    'indent': 'off',
+    indent: 'off',
     'object-curly-newline': 'off',
     'import/prefer-default-export': 'off',
     'import/named': 'off',
@@ -38,5 +38,5 @@ module.exports = {
     'object-shorthand': 'off',
     'linebreak-style': 'off',
     'import/no-unresolved': 'off'
-  },
+  }
 };
