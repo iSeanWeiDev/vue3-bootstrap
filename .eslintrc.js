@@ -19,9 +19,7 @@ module.exports = {
     'no-console': ['off'],
     'implicit-arrow-linebreak': 'off',
     'function-paren-newline': 'off',
-    // allow async-await
     'generator-star-spacing': 'off',
-    // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'import/extensions': [
       'error',
@@ -40,11 +38,4 @@ module.exports = {
     'object-shorthand': 'off',
     'linebreak-style': 'off'
   },
-  settings: {
-    'import/resolver': {
-      webpack: {
-        config: 'webpack/webpack.base.conf.js'
-      }
-    }
-  }
 };
