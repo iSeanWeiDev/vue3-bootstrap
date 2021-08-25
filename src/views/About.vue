@@ -9,7 +9,7 @@
   >
     Bootstrap collapse
   </button>
-  <div class="collapse py-2" id="collapseTarget">
+  <div class="collapse py-2 display-1" id="collapseTarget">
     This is the toggle-able content!
   </div>
 </template>
